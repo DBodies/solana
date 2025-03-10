@@ -1,0 +1,113 @@
+@import url(./container.css);
+@import url(./reset.css);
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Geologica", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.938);
+}
+
+/* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header */
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.svgHeader {
+  margin-right: 15px;
+}
+.headerText {
+  margin-right: 435px;
+  font-size: 48px;
+  color: transparent;
+  display: flex;
+    display: inline-block;
+  background-clip: text;
+    background-image: linear-gradient(174deg, #00a2ff 30%, #ffffff 100%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8)
+}
+
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+  
+}
+
+.headerLinkList {
+  font-size: 28px;
+  display: flex;
+  transition: 250ms ease-in;
+}
+
+.headerLinkList:hover {
+  text-shadow: 0 0 10px rgb(233, 233, 233);
+  transform: scale(1.2);
+}
+
+/* firstSection */
+.firstSection-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.firstTitle-Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.firstTitle {
+  font-weight: 400;
+font-size: 94px;
+line-height: 102%;
+letter-spacing: 0.01em;
+}
+.firstText {
+  font-weight: 400;
+font-size: 21px;
+line-height: 116%;
+color: #c4c4c4;
+}
+.btnWrapper {
+  display: flex;
+
+  gap: 20px;
+}
+.firstBtn {
+  padding: 10px 20px;
+  font-weight: 400;
+font-size: 15px;
+line-height: 133%;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+background-color: #14f195;
+border-radius: 20px;
+}
+.secondBtn {
+    padding: 10px 20px;
+    font-weight: 400;
+font-size: 15px;
+line-height: 133%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+border-radius: 20px;
+border: 1px solid;
+border-color: white;
+}
+.svgInBtn {
+position: relative;
+top: 3px;
+}
+.imgMatrix {
+  margin-left: auto;
+    filter: drop-shadow(0 0 50px rgba(179, 52, 238, 0.7))
+}
