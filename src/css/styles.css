@@ -333,6 +333,7 @@ margin-bottom: 48px;
 .wrapper-for-div {
   display: flex;
   flex-direction: column;
+  margin-bottom: 108px;
 }
 .solanaDocs-wrapper {
   display: flex;
@@ -411,8 +412,7 @@ color: #fff;
   flex-direction: row;
   margin-bottom: 48px;
 }
-.changelog-list {
-}
+
 .changelog-items:nth-child(1) {
   font-weight: 400;
 font-size: 39px;
@@ -444,9 +444,64 @@ color: #fff;
   margin-left: auto ;
     filter: drop-shadow(0 0 50px rgba(179, 52, 238, 0.7));
 }
-.textDscr {
+.wrapper-for-list {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.list-email {
+  box-shadow: 0 58px 80px 0 rgba(0, 0, 0, 0.16);
+background: #19161c;
+border-radius: 14px;
+max-width: 530px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.items-email {
+}
+.titleText-email {
+  font-weight: 400;
+font-size: 36px;
+line-height: 105%;
+color: #fff;
+padding: 48px 44px 24px 24px;
 
 }
-.textLink {
-
+.dscrText-email {
+  font-weight: 400;
+font-size: 17px;
+line-height: 161%;
+color: #c4c4c4;
+padding: 0 44px 64px 24px;
+}
+.form-email {
+  padding: 0 24px 24px 24px;
+}
+.label-email {
+  display: flex;
+}
+.input-email {
+  position: relative;
+  border: 2px solid #ffffff;
+padding: 9px 40px;
+border-radius: 18px;
+margin: 0 auto;
+}
+.inputBtn {
+  position: relative;
+  left: -160px;
+  color: black;
+}
+.list-media {
+}
+.items-media {
+}
+.titleText-media {
+}
+.dscrText-media {
+}
+.linkYT-media {
+}
+.linkPodcast-media {
 }
