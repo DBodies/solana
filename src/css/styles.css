@@ -499,10 +499,11 @@ color: #c4c4c4;
 padding: 0 44px 64px 24px;
 }
 .form-email {
+  display: flex;
+  align-items: center;
   padding: 0 24px 24px 24px;
 }
 .label-email {
-  display: flex;
 align-items: center;
 }
 .input-email {
